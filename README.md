@@ -46,8 +46,8 @@ spec:
             value: myhost.com:5000
           - name: LOG_LEVEL
             value: info
-          - name: K8S_CLUSTER
-            value: my-cluster
+          - name: CLUSTER_NAME
+            value: my_cluster
           - name: FILEBEAT_HOST
             valueFrom:
                 fieldRef:
